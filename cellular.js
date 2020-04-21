@@ -33,7 +33,7 @@ function run()
     rule = "0".repeat(8-rule.length) + rule; 
 
     // display vars
-    var cellSize = 3;
+    var cellSize = 1;
     var cellsPerRow = c.width/cellSize; 
     var maxGens = c.height/cellSize; 
     var worldLength = 4*maxGens-1;
